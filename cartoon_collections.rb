@@ -12,7 +12,7 @@ end
 
 def long_planeteer_calls(array) # code an argument here
   array.delete_if { |call| call.length > 4 }
-  if array.length == 0
+  if array == nil
     return FALSE
   else
     return true
