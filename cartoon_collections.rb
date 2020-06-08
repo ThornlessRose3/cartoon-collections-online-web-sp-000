@@ -11,12 +11,11 @@ def summon_captain_planet(array) # code an argument here
 end
 
 def long_planeteer_calls(array) # code an argument here
-  array.delete_if { |call| call.length < 4 }
-  puts array
-  if array.length === 0
-    return FALSE
+  result = array.find_index { |call| call.length < 4 }
+  if result != NIL
+    return TRUE
   else
-    return true
+    return result
   end
 end
 
