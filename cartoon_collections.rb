@@ -11,7 +11,7 @@ def summon_captain_planet(array) # code an argument here
 end
 
 def long_planeteer_calls(array) # code an argument here
-  array.delete_if { |call| call.length > 5 }
+  array.delete_if { |call| call.length > 4 }
   if array.length == 0
     return FALSE
   else
