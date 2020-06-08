@@ -1,5 +1,5 @@
 def roll_call_dwarves(array)# code an argument here
-  array.each_wuth_index { |dwarf, index|
+  array.each_with_index { |dwarf, index|
   puts "#{index} #{dwarf}"
   }
 end
