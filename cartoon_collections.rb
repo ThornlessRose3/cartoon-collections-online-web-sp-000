@@ -11,12 +11,16 @@ def summon_captain_planet(array) # code an argument here
 end
 
 def long_planeteer_calls(array) # code an argument here
-  result = array.find_index { |call| call.length < 4 }
-  puts result
-  if result != nil
-    return true
+  result = 0
+  array.each do |calls|
+    if calls.length > 4
+       result += 1
+    end
+  end
+  if result == 0
+    return FALSE
   else
-    return result
+    return TRUE
   end
 end
 
