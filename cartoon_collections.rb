@@ -18,9 +18,9 @@ def long_planeteer_calls(array) # code an argument here
     end
   end
   if result == 0
-    return FALSE
+    return false
   else
-    return TRUE
+    return true
   end
 end
 
