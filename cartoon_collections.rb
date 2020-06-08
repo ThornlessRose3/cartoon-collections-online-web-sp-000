@@ -30,7 +30,7 @@ def find_the_cheese(array) # code an argument here
   i = 0
   while i < array.length
     if array.include?(cheese_types[i])
-      return cheese_type[i]
+      return cheese_types[i]
     end
     i += 1
   end
